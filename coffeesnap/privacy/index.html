@@ -11,83 +11,148 @@
   <header>
     <div class="brand">Coffee Snap – Coffee Tracker</div>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: October 10, 2026 · Developer: HK Time Culture Communication Limited</p>
+    <p class="meta">Effective date: November 7, 2026 · Developer: HK Time Culture Communication Limited</p>
   </header>
 
-  <p>Coffee Snap is a personal coffee journal for iPhone and iPad. This policy explains what the app does with your information. The short version: <strong>everything you record stays on your device, or in your own iCloud account if you turn on sync. Coffee Snap does not collect, upload, sell or share your journal or your photos.</strong> To keep the app working, Firebase processes technical diagnostics and usage information, and Apple and RevenueCat process purchase information needed to provide Coffee Snap Pro. These services use installation or app-user identifiers; this information is separate from your coffee journal and is described below.</p>
+  <p>Coffee Snap is a personal coffee journal for iPhone and iPad. This policy explains what the app does with your information. <strong>We do not operate a journal or photo server or receive your journal files through normal app use. Your journal stays on your device and, if you enable sync, in your private iCloud account, unless you choose to export or share it, or send it to support. We do not sell your journal or photos.</strong></p>
+
+  <p>Optional usage analytics and crash-report sharing are off by default. If you choose to enable <strong>Share Usage &amp; Diagnostics</strong> in Settings, Firebase processes the technical diagnostics and usage information described below. Separately, Apple and RevenueCat process purchase information needed to provide Coffee Snap Pro. These services use installation or app-user identifiers; this information is separate from your coffee journal.</p>
+
+  <p>The optional collection controls described here apply from Coffee Snap 1.0 (build 10). Sharing is off by default on each device, including when upgrading from an earlier build, and your choice is stored on that device until you change it. Earlier TestFlight builds, including build 9, enabled Firebase diagnostics and usage analytics by default and did not offer this switch. The treatment of previously queued transmissions is explained below.</p>
 
   <h2>What Coffee Snap stores</h2>
+
   <p>When you log a coffee, the app saves what you enter: date and time, coffee type, an optional label, size, rating, price and currency, historically saved shop names, caffeine, sugar, notes, and a favorite mark. If you add a photo, the app stores the original photo and the sticker it makes from it.</p>
-  <p>All of this is stored <strong>only on your device</strong>, in Coffee Snap's own storage area. It is not sent to us or to anyone else. Coffee Snap has no accounts, no sign-in and no servers of its own. Optional iCloud sync uses your own iCloud account (see below).</p>
+
+  <p>Your journal is stored in Coffee Snap's own storage area on your device. Coffee Snap has no accounts, no sign-in and no servers of its own containing your journal. Optional iCloud sync uses your own iCloud account, as described below.</p>
 
   <h2>What Coffee Snap does not do</h2>
+
   <ul>
-    <li>It does not send your coffee records, notes, shops, prices or photos anywhere except your own iCloud (if you turn on sync).</li>
-    <li>Coffee Snap does not display advertising or request permission to track you across other companies’ apps or websites. Ad personalization and ad-network registration are disabled in the app configuration.</li>
-    <li>It does not read your contacts, location, calendar or health data.</li>
+
+    <li>It does not send your coffee records, notes, shops, prices or photos anywhere except your own iCloud, if you turn on sync, or a destination you explicitly choose through the system share sheet.</li>
+
+    <li>Coffee Snap does not display advertising or request permission to track you across other companies' apps or websites. Ad personalization and ad-network registration are disabled in the app configuration.</li>
+
+    <li>It does not read your contacts, calendar or health data, request device-location permission, or access precise GPS location. Service requests can reveal IP-derived approximate location as described below.</li>
+
     <li>It does not access your photo library beyond the photos you explicitly pick.</li>
+
+    <li>Sticker extraction runs on your device using Apple's Vision and Core Image frameworks. Your photos are not sent to a remote AI service to make stickers.</li>
+
   </ul>
 
   <h2>Permissions the app may ask for</h2>
+
   <table>
+
     <tr><th>Permission</th><th>Why</th></tr>
-    <tr><td>Camera</td><td>Only when you tap <em>Take Photo</em>, to photograph your coffee. Photos are saved inside the app on your device.</td></tr>
-    <tr><td>Photos (choose a photo)</td><td>When you tap <em>Choose from Photos</em>, iOS shows a picker and Coffee Snap receives only the photo you select. It cannot see the rest of your library.</td></tr>
-    <tr><td>Photos (add only)</td><td>Only when you tap <em>Save Image</em> on a recap or month card, so the app can add that one image to your library. Coffee Snap cannot read, edit or delete anything in your library.</td></tr>
-    <tr><td>Notifications (optional)</td><td>Only when you enable Monthly Recap Reminder, to deliver a local reminder. This option is off by default and is not required to use the journal.</td></tr>
+
+    <tr><td>Camera</td><td>Only when you tap <strong>Take Photo</strong>, to photograph your coffee. Photos are saved inside the app on your device.</td></tr>
+
+    <tr><td>Photos: choose a photo</td><td>When you tap <strong>Choose from Photos</strong>, iOS shows a picker and Coffee Snap receives only the photo you select. It cannot see the rest of your library.</td></tr>
+
+    <tr><td>Photos: add only</td><td>Only when you tap <strong>Save Image</strong> on a recap or month card, so the app can add that image to your library. This permission does not let Coffee Snap read, edit or delete existing items in your library.</td></tr>
+
+    <tr><td>Notifications: optional</td><td>Only when you enable <strong>Monthly Recap Reminder</strong>, to deliver a local reminder. This option is off by default and is not required to use the journal.</td></tr>
+
   </table>
-  <p>You can change any of these permissions later in the iOS Settings app. Denying them does not stop you from logging coffees without photos.</p>
+
+  <p>You can change system permissions later in the iOS Settings app. Denying them does not stop you from logging coffees without photos.</p>
 
   <h2>Local reminders and review preferences</h2>
-  <p>Monthly recap reminders are scheduled on your device from the dates of your saved entries. Reminder preferences, the choice to hide Coffee Snap branding on exports, and limited review-invitation eligibility information are stored locally, outside your journal's iCloud database. The app may request Apple's native rating dialog; Apple controls whether it appears and handles any rating you choose to submit. Coffee Snap does not receive a private copy of your rating.</p>
+
+  <p>Monthly recap reminders are scheduled on your device from the dates of your saved entries. Reminder preferences, the choice to hide Coffee Snap branding on exports, the diagnostics-sharing choice, and limited review-invitation eligibility information are stored locally, outside your journal's iCloud database.</p>
+
+  <p>The app may request Apple's native rating dialog. Apple controls whether it appears and handles any rating you choose to submit. Coffee Snap does not receive a private copy of your rating.</p>
 
   <h2>Sharing</h2>
-  <p>If you use <em>Share</em> on a recap or month card, iOS shows the standard share sheet. What happens next is up to you and the app or service you choose. Coffee Snap itself does not post or send anything.</p>
 
-  <h2>iCloud sync (optional)</h2>
-  <p>With Coffee Snap Pro, optional iCloud sync can keep your journal the same on devices signed in to your iCloud account. This is off by default and you turn it on in <strong>Settings → iCloud Sync</strong>. When it is on, your coffee records, stickers and original photos are stored in the <strong>private CloudKit database of your own iCloud account</strong>, which only you can access. They never pass through a server run by us: we cannot read, see or recover your journal, and turning sync off keeps everything on the device. Data stored in iCloud is governed by <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+  <p>If you use <strong>Share</strong> on a recap or month card, iOS shows the standard share sheet. What happens next is up to you and the app or service you choose. Coffee Snap does not post your journal to a public feed or send it to another service on its own.</p>
 
-  <h2>Crash reports and usage statistics</h2>
-  <p>To find bugs and understand which features are used, Coffee Snap uses two Google Firebase services. They never receive your journal or photos.</p>
+  <h2>iCloud sync: optional</h2>
+
+  <p>With Coffee Snap Pro, optional iCloud sync can keep your journal the same on devices signed in to your iCloud account. This is off by default and you turn it on in <strong>Settings → iCloud Sync</strong>.</p>
+
+  <p>When it is on, your coffee records, stickers and original photos are stored in the private CloudKit database of your own iCloud account. They do not pass through a server run by us; we cannot read, see or recover your journal. Turning sync off keeps your on-device journal and does not automatically delete the existing iCloud copy. Data stored in iCloud is governed by <a href="https://www.apple.com/legal/privacy/">Apple&#x27;s privacy policy</a>.</p>
+
+  <h2>Optional crash reports and usage statistics</h2>
+
+  <p><strong>Share Usage &amp; Diagnostics is off by default.</strong> You can choose to enable it in Coffee Snap's Settings to help us find bugs and understand which features are used. When enabled, the app uses the following Google Firebase services. They do not receive your journal or photos.</p>
+
   <table>
-    <tr><th>Data</th><th>Purpose</th><th>Service</th></tr>
-    <tr><td>Crash reports: device model, iOS version, app version, the technical trace of the crash, a random installation identifier</td><td>Find and fix crashes</td><td>Firebase Crashlytics (Google)</td></tr>
-    <tr><td>Usage events associated with an app installation, such as "coffee logged (with or without a photo)", "recap saved", "Pro page opened"; app version, device type, and approximate location derived from the IP address</td><td>Understand which features are used</td><td>Firebase Analytics (Google)</td></tr>
-  </table>
-  <p>The app does not ask you to create an account or supply your name or email address to these SDKs. Installation identifiers can nevertheless distinguish an installation and associate its events over time; they should not be described as information-free or completely anonymous. Ad personalization and ad-network features in Firebase are turned off. Google processes this data under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>. Retention is governed by the service settings and applicable provider terms; contact us for current retention information.</p>
 
-  <h2>Purchases (Coffee Snap Pro)</h2>
-  <p>Coffee Snap Pro is sold through Apple's App Store as a monthly or yearly subscription or a one-time purchase. Payment is handled by Apple; we never see your payment details, name or Apple ID. Subscriptions can be managed or cancelled in iOS Settings → your name → Subscriptions. Purchases are subject to Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement</a>.</p>
-  <table>
     <tr><th>Data</th><th>Purpose</th><th>Service</th></tr>
-    <tr><td>App Store transaction details (product, purchase and expiry dates, subscription status), a random app user identifier, app version, iOS version and App Store country</td><td>Unlock Pro, restore purchases, handle subscription status, and analyze purchases and subscription performance</td><td>RevenueCat; Apple App Store</td></tr>
+
+    <tr><td>Crash reports: device model, iOS version, app version, the technical trace of the crash, installation identifiers and related technical context</td><td>Find and fix crashes</td><td>Firebase Crashlytics (Google)</td></tr>
+
+    <tr><td>Usage events associated with an installation or app-instance identifier, such as “coffee logged (with or without a photo)”, “recap saved”, “Pro page opened”; app version, device type, App Store purchase events, and approximate location derived from the IP address</td><td>Understand feature use and purchase activity</td><td>Firebase Analytics (Google)</td></tr>
+
+    <tr><td>Handled-error reports containing fixed operation names, error domains and numeric codes; technical device, app and SDK-quality information. Usage events can also appear as diagnostic breadcrumbs in crash reports</td><td>Diagnose failures and improve reliability and SDK operation</td><td>Firebase Crashlytics and related Firebase components (Google)</td></tr>
+
   </table>
-  <p>Coffee Snap does not supply your name, email address or journal content to RevenueCat. Transaction records are associated with a RevenueCat app-user identifier to manage and restore entitlement; they are not used by Coffee Snap for cross-app advertising tracking. RevenueCat keeps it for as long as needed to honour your purchase.</p>
+
+  <p>You can withdraw your choice at any time by turning off <strong>Settings → Share Usage &amp; Diagnostics</strong>. The app then stops new optional usage-data collection and stops authorizing new crash-report sends. Reports or events already handed to a provider's upload component may still finish uploading or be retried. This can include reports queued by an earlier test build before you upgraded: some earlier-build transmissions may complete even before you enable the new switch. Your choice does not affect journaling, saving or sharing images, purchasing Pro, restoring purchases, or access to existing Pro benefits.</p>
+
+  <p>The app does not ask you to create an account or supply your name or email address to these SDKs. Installation identifiers can nevertheless distinguish an installation and associate its events over time; they should not be described as information-free or completely anonymous. Ad personalization and ad-network features in Firebase are turned off.</p>
+
+  <p>Turning this option off does not recall an upload already in progress, guarantee removal of every previously queued upload, or automatically delete information already received by the providers. Google processes this data under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>. Retention is governed by the service settings and applicable provider terms; contact us about current retention information or a deletion request. We do not promise immediate deletion of all provider-held information when you change the setting.</p>
+
+  <h2>Purchases: Coffee Snap Pro</h2>
+
+  <p>Coffee Snap Pro is sold through Apple's App Store as a monthly or yearly subscription or a one-time purchase. Payment is handled by Apple; we do not receive your payment-card details or Apple ID. Subscriptions can be managed or cancelled in <strong>iOS Settings → your name → Subscriptions</strong>. Purchases are subject to <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple&#x27;s Licensed Application End User License Agreement</a>.</p>
+
+  <table>
+
+    <tr><th>Data</th><th>Purpose</th><th>Service</th></tr>
+
+    <tr><td>App Store transaction details, including product, purchase and expiry dates and subscription status; a RevenueCat app-user identifier; the device's identifier for vendor (IDFV), when available; app version, iOS version, device and storefront information, and IP address associated with service requests</td><td>Unlock Pro, restore purchases, handle subscription status, renewals and refunds, and provide purchase/subscription reporting</td><td>RevenueCat; Apple App Store</td></tr>
+
+  </table>
+
+  <p>This transaction and entitlement handling is separate from optional Firebase analytics and diagnostics. Turning off <strong>Share Usage &amp; Diagnostics</strong> does not switch off Apple and RevenueCat processing needed to make purchases, restore access, or maintain subscription and entitlement status. It does not cancel a subscription.</p>
+
+  <p>Coffee Snap does not supply your name, email address or journal content to RevenueCat. The SDK creates an app-user identifier even though Coffee Snap has no app account or sign-in. Transaction records and entitlement status are associated with this identifier, and SDK requests can include IDFV when the operating system provides it. These identifiers can associate records with an installation, device or customer over time; the absence of a name or app account does not make the records completely anonymous or unlinked. Coffee Snap does not use them for cross-app advertising tracking. RevenueCat keeps purchase information for as long as needed to honour your purchase and meet applicable obligations.</p>
 
   <h2>Device backups</h2>
-  <p>Because your journal lives on your device, it is included in your normal device backups (iCloud Backup or a computer backup) according to your own iOS settings. Those backups are governed by Apple's privacy policy, not by Coffee Snap.</p>
+
+  <p>Because your journal lives on your device, it is included in your normal device backups, such as iCloud Backup or a computer backup, according to your own iOS settings. Those backups are governed by Apple's privacy policy, not by Coffee Snap.</p>
 
   <h2>Deleting your data</h2>
+
   <ul>
+
     <li>In Coffee Snap, open <strong>Settings → Privacy Policy → Manage Data → Delete All Data</strong> to remove coffee entries and photos from the app, after confirmation. Deletions may also sync to your other devices through iCloud, including if sync is enabled again later. This cannot be undone.</li>
-    <li>Deleting the app from your device also removes all of its data on that device. If iCloud sync is on, the copy in your iCloud account can be removed in iOS Settings → your name → iCloud → Manage Storage.</li>
+
+    <li>Deleting the app from your device removes its on-device journal but does not automatically delete your iCloud copy or cancel a subscription. You can manage the iCloud copy in <strong>iOS Settings → your name → iCloud → Manage Storage</strong>.</li>
+
   </ul>
-  <p>There is no journal data to delete on our side, because we never receive it. Deleting your journal does not automatically erase provider-held diagnostics or purchase records. Contact us about those records; we may need information sufficient to locate them and verify your request. Applicable retention and legal obligations may affect deletion.</p>
+
+  <p>There is no journal data to delete on our side, because we do not receive it. Deleting your journal or turning off diagnostics sharing does not automatically erase provider-held diagnostics or purchase records. Contact us about those records; we may need information sufficient to locate them and verify your request. Applicable retention and legal obligations may affect deletion.</p>
 
   <h2>Children</h2>
+
   <p>Coffee Snap is not directed at children under 13. If you believe a child has provided personal information to us, contact us so we can assess and address it.</p>
 
   <h2>Your rights</h2>
-  <p>Laws such as the GDPR (EU/UK) and the CCPA (California) give you rights over personal data that companies hold about you. We do not operate a server containing your coffee journal. Support correspondence and the technical and purchase information described above are handled separately. The technical identifiers and purchase records described above may be personal data under applicable law. You can contact us to request access, correction or deletion, or to raise a privacy concern, subject to applicable requirements. Everything else is under your control on your own device and iCloud account.</p>
+
+  <p>Laws such as the GDPR (EU/UK) and the CCPA (California) give you rights over personal data that companies hold about you. We do not operate a server containing your coffee journal. Support correspondence and the technical and purchase information described above are handled separately.</p>
+
+  <p>Technical identifiers and purchase records may be personal data under applicable law. You can contact us to request access, correction or deletion, or to raise a privacy concern, subject to applicable requirements. Your journal remains under your control on your device and in your own iCloud account.</p>
 
   <h2>Changes</h2>
-  <p>If a future version of Coffee Snap starts doing something different, we will update this page and the effective date above before that version is released.</p>
+
+  <p>If a future version of Coffee Snap changes these practices, we will update the published policy and its effective date before that version is released.</p>
 
   <h2>Support correspondence</h2>
+
   <p>If you email support, we receive your email address and the information you choose to include, and use it to respond to your request. Please avoid sending passwords, payment details or unnecessary personal information.</p>
 
   <h2>Contact</h2>
-  <p>HK Time Culture Communication Limited<br>Email: <a href="mailto:support@itimeculture.com">support@itimeculture.com</a></p>
+
+  <p>HK Time Culture Communication Limited</p>
+
+  <p>Email: support@itimeculture.com</p>
 
   <footer><a href="/">All apps</a> · <a href="/coffeesnap/support/">Coffee Snap support</a></footer>
 </main>
